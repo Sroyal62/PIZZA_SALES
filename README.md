@@ -1,18 +1,66 @@
-# PIZZA_SALES
+#Pizza Sales Analysis Using SQL – Business Insights & Revenue Optimization
 
-Revenue must be calculated by multiplying price × quantity and joining the relevant tables:
+..........................................................................
+Summary
+This project analyzes pizza sales data using SQL to extract meaningful business insights. The objective was to understand customer ordering behavior, revenue trends, peak sales hours, and product performance.
 
-SELECT SUM(od.quantity * p.price) AS total_revenue
-FROM order_details od
-JOIN pizzas p 
-ON od.pizza_id = p.pizza_id;
+By performing SQL joins, aggregations, and grouping operations, this project demonstrates how raw transactional data can be transformed into actionable business intelligence.
 
+..........................................................................
+Goals
 
-🎯 Key Learning:
+Calculate total number of orders placed
 
-Always validate business logic before aggregation.
+Compute total revenue generated
 
-Understand the difference between:
+Identify highest-priced pizza
+
+Determine the most commonly ordered pizza size
+
+Find top 5 most ordered pizza types
+
+Analyze category-wise pizza sales
+
+Determine hourly distribution of orders
+
+Derive insights for better business decision-making
+..........................................................................
+
+Data Used
+
+The dataset consists of four relational tables:
+
+orders.csv – Contains order date and time
+
+order_details.csv – Contains quantity and pizza IDs
+
+pizzas.csv – Contains price and pizza size
+
+pizza_types.csv – Contains category and pizza names
+
+These tables were joined using primary and foreign keys to perform analysis.
+
+..........................................................................
+
+SQL Queries & Analysis
+
+Used COUNT() to calculate total orders
+
+Used SUM(quantity * price) to compute total revenue
+
+Used GROUP BY for category-wise and size-wise distribution
+
+Applied ORDER BY and LIMIT to identify top-selling pizzas
+
+Joined multiple tables to avoid data duplication
+
+Analyzed order time to determine peak business hours
+
+..........................................................................
+
+Importance of correct table joins
+
+Difference between:
 
 Total Orders
 
@@ -20,27 +68,10 @@ Total Quantity Sold
 
 Total Revenue
 
-Ensure proper table joins to avoid duplication or incorrect totals.
+Avoiding aggregation errors
 
-Use COUNT(DISTINCT order_id) when calculating total orders.
+Using COUNT(DISTINCT) when required
 
-some query:
-1. Retrieve the total number of orders placed.
+Translating SQL output into business insights
 
-2. Calculate the total revenue generated from pizza sales.
-
-3. Identify the highest-priced pizza.
-
-4. Identify the most common pizza size ordered.
-
-5. List the top 5 most ordered pizza types along with their quantities.
-
-6. Join the necessary tables to find the total quantity of each pizza category ordered.
-
-7. Determine the distribution of orders by hour of the day.
-
-8.  Join relevant tables to find the category-wise distribution of pizzas.
-
-9. Group the orders by date and calculate the average number of pizzas ordered per day.
-
-10. Determine the top 3 most ordered pizza types based on revenue.
+Real-world data validation techniques
