@@ -1,13 +1,15 @@
-#Pizza Sales Analysis Using SQL – Business Insights & Revenue Optimization
+#**Pizza Sales Analysis Using SQL – Business Insights & Revenue Optimization**
 
 ..........................................................................
-Summary
+
+**Summary**
 This project analyzes pizza sales data using SQL to extract meaningful business insights. The objective was to understand customer ordering behavior, revenue trends, peak sales hours, and product performance.
 
 By performing SQL joins, aggregations, and grouping operations, this project demonstrates how raw transactional data can be transformed into actionable business intelligence.
 
 ..........................................................................
-Goals
+
+**Goals**
 
 Calculate total number of orders placed
 
@@ -26,7 +28,7 @@ Determine hourly distribution of orders
 Derive insights for better business decision-making
 ..........................................................................
 
-Data Used
+**Data Used**
 
 The dataset consists of four relational tables:
 
@@ -42,7 +44,7 @@ These tables were joined using primary and foreign keys to perform analysis.
 
 ..........................................................................
 
-SQL Queries & Analysis
+**SQL Queries & Analysis**
 
 Used COUNT() to calculate total orders
 
@@ -58,7 +60,7 @@ Analyzed order time to determine peak business hours
 
 ..........................................................................
 
-Importance of correct table joins
+**Importance of correct table joins**
 
 Difference between:
 
