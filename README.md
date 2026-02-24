@@ -1,82 +1,91 @@
-#**Pizza Sales Analysis Using SQL – Business Insights & Revenue Optimization**
+**Pizza Sales Data Analysis Project**
+
+**Business Performance & Revenue Insights Using SQL**
+
+📌** Project Overview**
+
+This project focuses on analyzing pizza sales data to uncover key business insights that support revenue growth and operational decision-making.
+
+Using structured SQL queries, raw transactional data was transformed into meaningful insights about customer behavior, product performance, and peak sales trends.
 
 ..........................................................................
 
-**Summary**
+**Objective**
 
-This project analyzes pizza sales data using SQL to extract meaningful business insights. The objective was to understand customer ordering behavior, revenue trends, peak sales hours, and product performance.
+The primary objective of this analysis was to:
 
-By performing SQL joins, aggregations, and grouping operations, this project demonstrates how raw transactional data can be transformed into actionable business intelligence.
+Measure total sales performance
 
-..........................................................................
+Identify top-performing products
 
-**Goals**
+Analyze customer ordering patterns
 
-Calculate total number of orders placed
+Determine peak business hours
 
-Compute total revenue generated
-
-Identify highest-priced pizza
-
-Determine the most commonly ordered pizza size
-
-Find top 5 most ordered pizza types
-
-Analyze category-wise pizza sales
-
-Determine hourly distribution of orders
-
-Derive insights for better business decision-making
-
+Understand category-wise revenue contribution
 ..........................................................................
 
 
-**Data Used**
+**Data Sources**
 
-The dataset consists of four relational tables:
+The analysis was conducted using structured sales data including:
 
-orders.csv – Contains order date and time
+Orders data (date & time of purchase)
 
-order_details.csv – Contains quantity and pizza IDs
+Order details (quantity purchased)
 
-pizzas.csv – Contains price and pizza size
+Product pricing information
 
-pizza_types.csv – Contains category and pizza names
+Product categories and types
 
-These tables were joined using primary and foreign keys to perform analysis.
-
-..........................................................................
-
-**SQL Queries & Analysis**
-
-Used COUNT() to calculate total orders
-
-Used SUM(quantity * price) to compute total revenue
-
-Used GROUP BY for category-wise and size-wise distribution
-
-Applied ORDER BY and LIMIT to identify top-selling pizzas
-
-Joined multiple tables to avoid data duplication
-
-Analyzed order time to determine peak business hours
+The datasets were relationally connected to ensure accurate and complete analysis.
 
 ..........................................................................
 
-**Importance of correct table joins**
+**Key Insights Delivered**
 
-Difference between:
+✔ Total Revenue Generated
+✔ Total Orders & Quantity Sold
+✔ Highest-Priced Pizza Identified
+✔ Most Popular Pizza Size
+✔ Top 5 Best-Selling Pizza Types
+✔ Category-Wise Sales Distribution
+✔ Hourly Order Trend Analysis
 
-Total Orders
+..........................................................................
 
-Total Quantity Sold
+**Business Value**
 
-Total Revenue
+Identified peak hours for better staff planning
 
-Avoiding aggregation errors
+Highlighted best-selling products for promotion
 
-Using COUNT(DISTINCT) when required
+Provided insights for pricing strategy optimization
 
-Translating SQL output into business insights
+Supported inventory and supply chain decisions
 
-Real-world data validation techniques
+Enabled data-driven business planning
+
+..........................................................................
+
+**Tools & Skills Used**
+
+SQL (Joins, Aggregations, Group By, Subqueries)
+
+Data Cleaning & Validation
+
+Business Insight Interpretation
+
+..........................................................................
+
+**Project Outcome**
+
+The project successfully demonstrated how structured data analysis can help businesses:
+
+Increase revenue efficiency
+
+Improve operational strategy
+
+Enhance customer satisfaction
+
+Make data-driven decisions
