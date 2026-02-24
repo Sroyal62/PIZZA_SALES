@@ -3,6 +3,7 @@
 ..........................................................................
 
 **Summary**
+
 This project analyzes pizza sales data using SQL to extract meaningful business insights. The objective was to understand customer ordering behavior, revenue trends, peak sales hours, and product performance.
 
 By performing SQL joins, aggregations, and grouping operations, this project demonstrates how raw transactional data can be transformed into actionable business intelligence.
@@ -26,7 +27,9 @@ Analyze category-wise pizza sales
 Determine hourly distribution of orders
 
 Derive insights for better business decision-making
+
 ..........................................................................
+
 
 **Data Used**
 
