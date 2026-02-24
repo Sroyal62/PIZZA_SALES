@@ -23,8 +23,8 @@ Analyze customer ordering patterns
 Determine peak business hours
 
 Understand category-wise revenue contribution
-..........................................................................
 
+..........................................................................
 
 **Data Sources**
 
