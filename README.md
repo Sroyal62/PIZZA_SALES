@@ -1,8 +1,8 @@
-**Pizza Sales Data Analysis Project**
+Pizza Sales Data Analysis Project
 
-**Business Performance & Revenue Insights Using SQL**
+Business Performance & Revenue Insights Using SQL
 
-** Project Overview**
+Project Overview
 
 This project focuses on analyzing pizza sales data to uncover key business insights that support revenue growth and operational decision-making.
 
@@ -10,7 +10,7 @@ Using structured SQL queries, raw transactional data was transformed into meanin
 
 ..........................................................................
 
-**Objective**
+Objective
 
 The primary objective of this analysis was to:
 
@@ -26,7 +26,7 @@ Understand category-wise revenue contribution
 
 ..........................................................................
 
-**Data Sources**
+Data Sources
 
 The analysis was conducted using structured sales data including:
 
@@ -42,7 +42,7 @@ The datasets were relationally connected to ensure accurate and complete analysi
 
 ..........................................................................
 
-**Key Insights Delivered**
+Key Insights Delivered
 
 . Total Revenue Generated
 . Total Orders & Quantity Sold
@@ -54,7 +54,8 @@ The datasets were relationally connected to ensure accurate and complete analysi
 
 ..........................................................................
 
-**Business Value**
+
+Business Value
 
 Identified peak hours for better staff planning
 
@@ -68,7 +69,7 @@ Enabled data-driven business planning
 
 ..........................................................................
 
-**Tools & Skills Used**
+Tools & Skills Used
 
 SQL (Joins, Aggregations, Group By, Subqueries)
 
@@ -78,7 +79,7 @@ Business Insight Interpretation
 
 ..........................................................................
 
-**Project Outcome**
+Project Outcome
 
 The project successfully demonstrated how structured data analysis can help businesses:
 
