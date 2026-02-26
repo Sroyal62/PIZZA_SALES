@@ -2,7 +2,7 @@
 
 **Business Performance & Revenue Insights Using SQL**
 
-📌** Project Overview**
+** Project Overview**
 
 This project focuses on analyzing pizza sales data to uncover key business insights that support revenue growth and operational decision-making.
 
@@ -44,13 +44,13 @@ The datasets were relationally connected to ensure accurate and complete analysi
 
 **Key Insights Delivered**
 
-✔ Total Revenue Generated
-✔ Total Orders & Quantity Sold
-✔ Highest-Priced Pizza Identified
-✔ Most Popular Pizza Size
-✔ Top 5 Best-Selling Pizza Types
-✔ Category-Wise Sales Distribution
-✔ Hourly Order Trend Analysis
+. Total Revenue Generated
+. Total Orders & Quantity Sold
+. Highest-Priced Pizza Identified
+. Most Popular Pizza Size
+. Top 5 Best-Selling Pizza Types
+. Category-Wise Sales Distribution
+. Hourly Order Trend Analysis
 
 ..........................................................................
 
